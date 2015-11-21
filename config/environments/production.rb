@@ -78,7 +78,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
   #Added per Devise
-  config.action_mailer.default_url_options = {host: 'https://famgallery.herokuapp.com'}
+  config.action_mailer.default_url_options = {host: 'famgallery.herokuapp.com'}
   
   config.paperclip_defaults = {
   :storage => :s3,
