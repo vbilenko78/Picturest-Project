@@ -26,7 +26,7 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
 
 gem 'devise', '~> 3.4.1'
 
-gem 'paperclip', '~> 4.3', '>= 4.3.2'
+gem 'paperclip', '~> 4.3'
 
 gem 'aws-sdk', '~> 2.2', '>= 2.2.1'
 
