@@ -28,7 +28,8 @@ gem 'devise', '~> 3.4.1'
 
 gem 'paperclip', '~> 4.3'
 
-gem 'aws-sdk', '~> 2.2', '>= 2.2.1'
+gem 'aws-sdk', '~> 2.2'
+gem 'aws-sdk-v1'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
 group :development, :test do
