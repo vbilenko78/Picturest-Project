@@ -80,6 +80,7 @@ Rails.application.configure do
   #Added per Devise
   config.action_mailer.default_url_options = { host: 'famgallery.herokuapp.com'}
   
+  
   config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
