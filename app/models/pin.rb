@@ -12,6 +12,5 @@ class Pin < ActiveRecord::Base
             :style => { :medium => "300x300>", :thumb => "100x100>" },
             :storage => :s3,
             :bucket  => ENV['udemy-pint']
-    validates :image, presence: true
-    validates :description, presence: true
+    validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
 end
