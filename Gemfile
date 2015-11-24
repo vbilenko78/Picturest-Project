@@ -31,6 +31,9 @@ gem 'paperclip', '~> 4.3'
 gem 'aws-sdk', '~> 2.2'
 gem 'aws-sdk-v1'
 
+gem 'jquery-turbolinks'
+gem 'masonry-rails', '~> 0.2.4'
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
 group :development, :test do
   gem 'byebug'
